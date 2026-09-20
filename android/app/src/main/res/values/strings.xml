@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ArchPC</string>
+    <string name="title_terminal">Arch Linux — Terminal</string>
+    <string name="title_installer">Arch Linux — Instalação</string>
+
+    <string name="home_installed_yes">Arch Linux instalado e pronto.</string>
+    <string name="home_installed_no">Nenhum sistema instalado. Baixe um Arch limpo para começar.</string>
+    <string name="home_install">Instalar / reinstalar Arch Linux</string>
+    <string name="home_open_terminal">Abrir terminal</string>
+    <string name="home_free_size">Espaço livre nos arquivos do app</string>
+
+    <string name="install_download">Baixando a base do Arch (%1$s)…</string>
+    <string name="install_download_url">Fonte: %1$s</string>
+    <string name="install_extracting">Extraindo rootfs…</string>
+    <string name="install_setup">Configurando chaves e pacman…</string>
+    <string name="install_done">Instalação concluída. O sistema está limpo e pronto.</string>
+    <string name="install_error">Erro na instalação: %1$s</string>
+    <string name="install_working">Instalando…</string>
+    <string name="install_ok">Concluído</string>
+    <string name="install_fail">Falhou</string>
+
+    <string name="term_prompt_hint">digite um comando e ENTER</string>
+    <string name="term_send">executar</string>
+    <string name="term_welcome">ArchPC — terminal Arch Linux (sistema limpo)
+Escolha o que instalar com pacman. Digite \"help\" para dicas.\n</string>
+
+    <string name="toolbar_back">Voltar</string>
+    <string name="installer_open_terminal">Abrir terminal</string>
+</resources>

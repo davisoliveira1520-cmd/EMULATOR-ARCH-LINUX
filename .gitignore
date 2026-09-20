@@ -1,0 +1,38 @@
+# Gradle / Android
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Kotlin
+.kotlin/
+
+# Sensitive / local
+*.jks
+*.keystore
+keystore.properties
+
+# Binarios / downloads grandes
+*.apk
+*.aab
+*.tar.zst
+*.tar.gz
+*.deb
+*.iso
+*.tgz
+
+# Rootfs gerado
+android/app/build/rootfs/
+rootfs/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node / misc
+node_modules/

@@ -1,29 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string name="app_name">ArchPC</string>
-    <string name="title_terminal">Arch Linux — Terminal</string>
-    <string name="title_installer">Arch Linux — Instalação</string>
 
-    <string name="home_installed_yes">Arch Linux instalado e pronto.</string>
-    <string name="home_installed_no">Nenhum sistema instalado. Baixe um Arch limpo para começar.</string>
-    <string name="home_install">Instalar / reinstalar Arch Linux</string>
-    <string name="home_open_terminal">Abrir terminal</string>
-    <string name="home_free_size">Espaço livre nos arquivos do app</string>
+    <!-- Home -->
+    <string name="home_installed_yes">Arch Linux instalado e pronto (base limpa).</string>
+    <string name="home_installed_no">Nenhum sistema ainda. Instale o Arch limpo pra começar.</string>
+    <string name="home_install">Instalar Arch Linux</string>
+    <string name="home_terminal">Abrir terminal</string>
+    <string name="home_wipe">Apagar tudo (instalação limpa)</string>
+    <string name="home_sysinfo">Sistema: base oficial Arch %1$s</string>
 
-    <string name="install_download">Baixando a base do Arch (%1$s)…</string>
-    <string name="install_download_url">Fonte: %1$s</string>
-    <string name="install_extracting">Extraindo rootfs…</string>
-    <string name="install_setup">Configurando chaves e pacman…</string>
-    <string name="install_done">Instalação concluída. O sistema está limpo e pronto.</string>
-    <string name="install_error">Erro na instalação: %1$s</string>
-    <string name="install_working">Instalando…</string>
-    <string name="install_ok">Concluído</string>
-    <string name="install_fail">Falhou</string>
+    <!-- Instalador -->
+    <string name="install_title">Emulador ArchPC</string>
+    <string name="install_status">%1$s</string>
+    <string name="install_ok">Instalação concluída</string>
+    <string name="install_error">Falha na instalação: %1$s</string>
+    <string name="install_already">Já instalado. Quer reinstalar do zero?</string>
 
-    <string name="term_prompt_hint">digite um comando e ENTER</string>
-    <string name="term_send">executar</string>
-    <string name="term_welcome">ArchPC — terminal Arch Linux (sistema limpo)
-Escolha o que instalar com pacman. Digite \"help\" para dicas.\n</string>
+    <!-- Terminal -->
+    <string name="terminal_title">Arch Linux — Terminal</string>
+    <string name="terminal_hint">Digite um comando e aperte Enter</string>
+    <string name="terminal_send">Enviar</string>
 
-    <string name="toolbar_back">Voltar</string>
-    <string name="installer_open_terminal">Abrir terminal</string>
+    <!-- Botões gerais -->
+    <string name="btn_install">Instalar</string>
+    <string name="btn_back">Voltar</string>
+    <string name="btn_continue">Continuar</string>
 </resources>
